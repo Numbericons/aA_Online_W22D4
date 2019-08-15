@@ -6,10 +6,10 @@ function swap(arr, index1, index2) {
 }
 
 function selectionSort(arr) {
-    for (let j = 0; j < arr.length; j++){
+    for (let j = 0; j < arr.length; j++) {
         let minIdx = j;
-        for (let i = j+1; i < arr.length; i++){
-            if (arr[minIdx] > arr[i]){
+        for (let i = j + 1; i < arr.length; i++) {
+            if (arr[minIdx] > arr[i]) {
                 minIdx = i;
             }
         }
